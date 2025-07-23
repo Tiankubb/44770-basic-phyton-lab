@@ -1,10 +1,12 @@
-age = int(input("Age: "))
-day = int(input("Day: "))
+age2 = input("Age: ")
+day2 = input("Day: ")
+age = int(age2)
+day = int(day2)
 ticket = 100
 if (5 < day < 8):
-    ticket = ticket+50
+    ticket+50
 else:
-    ticket = ticket+0
+    ticket
 
 if( age < 13):
     print(ticket)
