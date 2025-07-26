@@ -4,9 +4,9 @@ age = int(age2)
 day = int(day2)
 ticket = 100
 if (5 < day < 8):
-    ticket+50
+    (ticket + 50)
 else:
-    ticket
+    ticket+0
 
 if( age < 13):
     print(ticket)
