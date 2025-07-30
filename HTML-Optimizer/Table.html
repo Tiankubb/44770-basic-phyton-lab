@@ -58,6 +58,85 @@
       <div class="price">$1,200 <span class="discount">$1,600</span></div>
     </div>
   </div>
-
+<form action="process.php">
+<link rel="stylesheet" href="style.css">
+    <div class="row">
+        <div>Name</div>
+        <input type="text" name="fullname" placeholder="กรอก ชื่อ - นามสกุล"/>
+    </div>
+ 
+    <div class="row">
+        <div>จังหวัด</div>
+        <select name="province">
+        <option value="1">กรุงเทพมหานคร</option>
+        <option value="2">เชียงใหม่</option>
+        <option value="3">ชลบุรี</option>
+        <option value="4">นครราชสีมา</option>
+        <option value="5">ขอนแก่น</option>
+        <option value="6">ภูเก็ต</option>
+        <option value="7">นครศรีธรรมราช</option>
+        <option value="8">สงขลา</option>
+        <option value="9">ระยอง</option>
+        <option value="10">สุราษฎร์ธานี</option>
+        <option value="11">อุบลราชธานี</option>
+        <option value="12">พิษณุโลก</option>
+        <option value="13">อุดรธานี</option>
+        <option value="14">นครปฐม</option>
+        <option value="15">พระนครศรีอยุธยา</option>
+        <option value="16">ลำปาง</option>
+        <option value="17">สมุทรปราการ</option>
+        <option value="18">ปทุมธานี</option>
+        <option value="19">นนทบุรี</option>
+        <option value="20">เพชรบุรี</option>
+ 
+ 
+        </select>
+    </div>
+ 
+    <div class="row">
+        <div>Type your address </div>
+        <textarea name="address" placeholder="ที่อยู่"></textarea>
+    </div>
+ 
+    <div class="row">
+    <label>สินค้า</label>
+    <div class="choices-grid">
+        <label><input type="checkbox" name="iphone[]" value="15"> Amazon Basics High-Speed HDMI Cable</label>
+        <label><input type="checkbox" name="iphone[]" value="16p"> Portable Washing Machine 11lbs Capacity  </label>
+        <label><input type="checkbox" name="iphone[]" value="14p"> TOZO T6 True Wireless Earbuds</label>
+        <label><input type="checkbox" name="iphone[]" value="13p"> Dell Optiplex 7000x7480 All-in-One Monitor</label>
+        <label><input type="checkbox" name="iphone[]" value="13"> Samsung Electronics Galaxy S21 5G</label>
+        <label><input type="checkbox" name="iphone[]" value="13"> 4K UHD LED Smart TV with Chromecast</label>
+        <label><input type="checkbox" name="iphone[]" value="13"> Wired Over-Ear Gaming Headphones with USB</label>
+        <label><input type="checkbox" name="iphone[]" value="13"> Polaroid 57-Inch Photo/Video Tripod with Deluxe Washer</label>
+    </div>
+</div>
+ 
+<div class="row">
+    <label>วิธีการจัดส่ง</label>
+    <div class="choices-grid">
+        <label><input type="checkbox" name="color[]" value="b"> ส่งเลย</label>
+        <label><input type="checkbox" name="color[]" value="w"> นัดหมายการจัดส่ง</label>
+    </div>
+</div>
+ 
+     <div class="row">
+        <div>จำนวน</div>
+        <select name="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </div>
+ 
+   
+ 
+    <div style="margin-top: 20px;">
+        <input type="submit" value="ปลายทาง">
+        <input type="submit" value="ธนาคาร">
+    </div>
+</form>
+</body>
+</html>
 </body>
 </html>
