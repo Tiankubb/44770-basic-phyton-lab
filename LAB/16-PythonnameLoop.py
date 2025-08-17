@@ -1,7 +1,5 @@
-n = ["Tienwat", "Compoonuch", "44770","Nigger"]
-for i in range(4):
+n = ["Tienwat", "Compoonuch", "44770"]
+for i in range(3):
     x = n[i]
-    if n == [3]:
-        break
     print(x)
     
