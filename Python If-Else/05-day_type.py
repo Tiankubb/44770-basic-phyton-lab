@@ -1,7 +1,8 @@
-x = input("Number 1 - 7: ")
-y = int(x)
+day = int(input("Enter day number (1-7): "))
 
-if y in {1,2,3,4,5}:
-    print("Weekdays")
+if 1 <= day <= 5:  
+    print("Weekday") 
+elif 6 <= day <= 7: 
+    print("Weekend") 
 else:
-    print("Weekend")
+    print("Invalid day number. Please enter 1-7.")  

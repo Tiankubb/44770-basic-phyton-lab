@@ -1,16 +1,13 @@
-age2 = input("Age: ")
-day2 = input("Day: ")
-age = int(age2)
-day = int(day2)
-ticket = 100
-if (5 < day < 8):
-    (ticket + 50)
-else:
-    ticket+0
+age = int(input("Enter age: "))
+day = int(input("Enter day of week (1-7): "))
 
-if( age < 13):
-    print(ticket)
-elif(13 >= age > 60):
-    print(ticket+80)
-else: 
-    print(ticket + 20)
+if age < 13:
+    price = 100
+elif age <= 60: 
+    price = 180
+else:
+    price = 120
+
+if day == 6 or day == 7: 
+    price += 50
+print(f"Total ticket price: {price} baht")
