@@ -1,7 +1,8 @@
 def show_table(n, limit):
-    i = int(input("Number"))
-    while i <= limit:
-        print(f"{n} x {i} = {n * i}")
-        i += 1
-
-show_table(4, 3)
+  i = 1
+  while i <= limit:
+    print(n,"x",i,"=",n*i)
+    i = i+1
+n = int(input("n = "))
+limit = int(input("limit = "))
+show_table(n,limit)
